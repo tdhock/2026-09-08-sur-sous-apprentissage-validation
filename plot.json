@@ -1,0 +1,1620 @@
+{
+ "geoms": {
+ "geom1_point_funs": {
+ "geom": "point",
+"classed": "geom1_point_funs",
+"aes": {
+"x": "input",
+"y": "output",
+"fill": "ensemble",
+"showSelected1": "ensemble"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        4,
+"showSelected": "ensemble",
+"help_showSelected": "ensemble" 
+},
+"types": {
+"fill": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelected1": "character",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom2_line_funs": {
+ "geom": "line",
+"classed": "geom2_line_funs",
+"aes": {
+"x": "input",
+"y": "value",
+"colour": "fonction",
+"showSelected1": "fonction"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": "fonction",
+"help_showSelected": "fonction" 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelected1": "factor",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_line_funs": {
+ "geom": "line",
+"classed": "geom3_line_funs",
+"aes": {
+"x": "input",
+"y": "value",
+"key": "pred",
+"colour": "fonction",
+"showSelected1": "voisins",
+"showSelected2": "fonction"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": [ "voisins", "fonction" ],
+"help_showSelected": [ "voisins", "fonction" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"showSelected1": "integer",
+"showSelected2": "factor",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [
+ "voisins" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"columns": {
+ "common": [
+ "group",
+"PANEL",
+"colour",
+"key",
+"showSelected2",
+"x" 
+] 
+},
+"chunks": {
+ "1": 1,
+"2": 2,
+"3": 3,
+"4": 4,
+"5": 5,
+"6": 6,
+"7": 7,
+"8": 8,
+"9": 9,
+"10": 10,
+"11": 11,
+"12": 12,
+"13": 13,
+"14": 14,
+"15": 15,
+"16": 16,
+"17": 17,
+"18": 18,
+"19": 19,
+"20": 20,
+"21": 21,
+"22": 22,
+"23": 23,
+"24": 24,
+"25": 25,
+"26": 26,
+"27": 27,
+"28": 28,
+"29": 29,
+"30": 30,
+"31": 31,
+"32": 32,
+"33": 33,
+"34": 34,
+"35": 35,
+"36": 36,
+"37": 37,
+"38": 38,
+"39": 39,
+"40": 40,
+"41": 41,
+"42": 42,
+"43": 43,
+"44": 44,
+"45": 45,
+"46": 46,
+"47": 47,
+"48": 48,
+"49": 49,
+"50": 50 
+},
+"total": 50 
+},
+"geom4_line_select": {
+ "geom": "line",
+"classed": "geom4_line_select",
+"aes": {
+"x": "voisins",
+"y": "RMSE",
+"colour": "ensemble",
+"group": "ensemble",
+"showSelected1": "ensemble"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": "ensemble",
+"help_showSelected": "ensemble" 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"group": "character",
+"showSelected1": "character",
+"PANEL": "factor"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL",
+"group" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_point_select": {
+ "geom": "point",
+"classed": "geom5_point_select",
+"aes": {
+"x": "voisins",
+"y": "RMSE",
+"colour": "ensemble",
+"showSelected1": "ensemble"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"fill": "#FFFFFF",
+"showSelected": "ensemble",
+"help_showSelected": "ensemble" 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelected1": "character",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom6_text_select": {
+ "geom": "text",
+"classed": "geom6_text_select",
+"aes": {
+"x": "N/2",
+"y": "0.3",
+"key": "voisins",
+"label": "sprintf(\"%d plus proche%s voisin%s\", voisins, s, s)",
+"showSelected1": "voisins"
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"showSelected": "voisins",
+"help_showSelected": "voisins",
+"anchor": "end" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"label": "character",
+"showSelected1": "integer",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom7_text_select": {
+ "geom": "text",
+"classed": "geom7_text_select",
+"aes": {
+"x": "N/2",
+"y": "ifelse(ensemble == subtrain, 0.15, 0)",
+"colour": "ensemble",
+"key": "ensemble",
+"label": "sprintf(\"Erreur sur %s : %.4f\", ensemble, RMSE)",
+"showSelected1": "voisins",
+"showSelected2": "ensemble"
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"showSelected": [ "voisins", "ensemble" ],
+"help_showSelected": [ "voisins", "ensemble" ],
+"anchor": "end" 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"label": "character",
+"showSelected1": "integer",
+"showSelected2": "character",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom8_tallrect_select": {
+ "geom": "tallrect",
+"classed": "geom8_tallrect_select",
+"aes": {
+"xmin": "voisins - 0.5",
+"xmax": "voisins + 0.5",
+"clickSelects": "voisins"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.5,
+"clickSelects": "voisins",
+"help_clickSelects": "voisins" 
+},
+"types": {
+"xmin": "numeric",
+"xmax": "numeric",
+"clickSelects": "integer",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"duration": {
+ "voisins":     1000 
+},
+"selectors": {
+ "ensemble": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "sous-entraînement", "validation" ],
+"levels": [ "sous-entraînement", "validation" ],
+"update": [
+ "geom1_point_funs",
+"geom4_line_select",
+"geom5_point_select",
+"geom7_text_select" 
+] 
+},
+"fonction": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "truth", "prediction" ],
+"levels": [ "truth", "prediction" ],
+"update": [
+ "geom2_line_funs",
+"geom3_line_funs" 
+] 
+},
+"voisins": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"chunks": "voisins",
+"clickSelects": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50" ],
+"update": [
+ "geom3_line_funs",
+"geom6_text_select",
+"geom7_text_select",
+"geom8_tallrect_select" 
+],
+"duration":     1000 
+} 
+},
+"plots": {
+ "funs": {
+ "panel_margin_lines":        0,
+"legend": {
+ "ensemble": {
+ "guide": "legend",
+"geoms": "point",
+"title": "ensemble",
+"class": "ensemble",
+"selector": "ensemble",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pointfill": "#7F7F7F",
+"pointshape":       19,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "sous-entraînement" 
+},
+{
+ "pointfill": "#000000",
+"pointshape":       19,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "validation" 
+} 
+] 
+},
+"fonction": {
+ "guide": "legend",
+"geoms": [ "path", "path" ],
+"title": "fonction",
+"class": "fonction",
+"selector": "fonction",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#FF0000",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "prediction" 
+},
+{
+ "pathcolour": "#0000FF",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "truth" 
+} 
+] 
+} 
+},
+"strips": {
+ "right": [
+ "",
+"",
+"",
+"sous-entraînement",
+"",
+"",
+"",
+"validation" 
+],
+"top": [
+ "constante",
+"escalier",
+"linéaire",
+"quadratique",
+"",
+"",
+"",
+"" 
+],
+"n": {
+ "top":        1,
+"right":        1 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2", "3", "4", "5", "6", "7", "8" ],
+"ROW": [ 1, 1, 1, 1, 2, 2, 2, 2 ],
+"COL": [ 1, 2, 3, 4, 1, 2, 3, 4 ],
+"ensemble": [ "sous-entraînement", "sous-entraînement", "sous-entraînement", "sous-entraînement", "validation", "validation", "validation", "validation" ],
+"tendence": [ "constante", "escalier", "linéaire", "quadratique", "constante", "escalier", "linéaire", "quadratique" ],
+"SCALE_X": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+"SCALE_Y": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+"AXIS_Y": [ true, false, false, false, true, false, false, false ],
+"AXIS_X": [ false, false, false, false, true, true, true, true ],
+"coord_fixed": [ false, false, false, false, false, false, false, false ],
+"width_proportion": [     0.25,     0.25,     0.25,     0.25,     0.25,     0.25,     0.25,     0.25 ],
+"height_proportion": [      0.5,      0.5,      0.5,      0.5,      0.5,      0.5,      0.5,      0.5 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+[
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+[
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+[
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+[
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+[
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+[
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+[
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+] 
+],
+"y": [
+ [
+        0,
+       4,
+       8 
+],
+[
+        0,
+       4,
+       8 
+],
+[
+        0,
+       4,
+       8 
+],
+[
+        0,
+       4,
+       8 
+],
+[
+        0,
+       4,
+       8 
+],
+[
+        0,
+       4,
+       8 
+],
+[
+        0,
+       4,
+       8 
+],
+[
+        0,
+       4,
+       8 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+[
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+[
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+[
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+[
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+[
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+[
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+],
+[
+       -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3 
+] 
+],
+"y": [
+ [
+       -2,
+       0,
+       2,
+       4,
+       6,
+       8,
+      10 
+],
+[
+       -2,
+       0,
+       2,
+       4,
+       6,
+       8,
+      10 
+],
+[
+       -2,
+       0,
+       2,
+       4,
+       6,
+       8,
+      10 
+],
+[
+       -2,
+       0,
+       2,
+       4,
+       6,
+       8,
+      10 
+],
+[
+       -2,
+       0,
+       2,
+       4,
+       6,
+       8,
+      10 
+],
+[
+       -2,
+       0,
+       2,
+       4,
+       6,
+       8,
+      10 
+],
+[
+       -2,
+       0,
+       2,
+       4,
+       6,
+       8,
+      10 
+],
+[
+       -2,
+       0,
+       2,
+       4,
+       6,
+       8,
+      10 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [    -2.25,     3.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       4,
+       8 
+],
+"ylab": [
+ "0",
+"4",
+"8" 
+],
+"yrange": [  -3.6391, 10.89782 ],
+"yline": false,
+"yticks": true 
+},
+"axis2": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [    -2.25,     3.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       4,
+       8 
+],
+"ylab": [
+ "0",
+"4",
+"8" 
+],
+"yrange": [  -3.6391, 10.89782 ],
+"yline": false,
+"yticks": true 
+},
+"axis3": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [    -2.25,     3.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       4,
+       8 
+],
+"ylab": [
+ "0",
+"4",
+"8" 
+],
+"yrange": [  -3.6391, 10.89782 ],
+"yline": false,
+"yticks": true 
+},
+"axis4": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [    -2.25,     3.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       4,
+       8 
+],
+"ylab": [
+ "0",
+"4",
+"8" 
+],
+"yrange": [  -3.6391, 10.89782 ],
+"yline": false,
+"yticks": true 
+},
+"axis5": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [    -2.25,     3.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       4,
+       8 
+],
+"ylab": [
+ "0",
+"4",
+"8" 
+],
+"yrange": [  -3.6391, 10.89782 ],
+"yline": false,
+"yticks": true 
+},
+"axis6": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [    -2.25,     3.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       4,
+       8 
+],
+"ylab": [
+ "0",
+"4",
+"8" 
+],
+"yrange": [  -3.6391, 10.89782 ],
+"yline": false,
+"yticks": true 
+},
+"axis7": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [    -2.25,     3.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       4,
+       8 
+],
+"ylab": [
+ "0",
+"4",
+"8" 
+],
+"yrange": [  -3.6391, 10.89782 ],
+"yline": false,
+"yticks": true 
+},
+"axis8": {
+ "x": [
+       -2,
+      -1,
+       0,
+       1,
+       2,
+       3 
+],
+"xlab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"xrange": [    -2.25,     3.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       4,
+       8 
+],
+"ylab": [
+ "0",
+"4",
+"8" 
+],
+"yrange": [  -3.6391, 10.89782 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "x = entrée",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "y = sortie",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-2",
+"-1",
+"0",
+"1",
+"2",
+"3" 
+],
+"ylabs": [
+ "0",
+"4",
+"8" 
+],
+"title": "Données et prédictions",
+"title_size": "14.4pt",
+"options": {
+ "width":     1000,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_point_funs",
+"geom2_line_funs",
+"geom3_line_funs" 
+] 
+},
+"select": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "ensemble": {
+ "guide": "legend",
+"geoms": [ "path", "point", "text" ],
+"title": "ensemble",
+"class": "ensemble",
+"selector": "ensemble",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#7F7F7F",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "sous-entraînement",
+"pointcolour": "#7F7F7F",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointfill": "#FFFFFF",
+"pointstroke":      0.5,
+"textcolour": "#7F7F7F",
+"textsize":       12,
+"textangle":        0,
+"texthjust":        1,
+"textvjust":      0.5,
+"textfamily": "",
+"textfontface":        1,
+"textlineheight":      1.2 
+},
+{
+ "pathcolour": "#000000",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "validation",
+"pointcolour": "#000000",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointfill": "#FFFFFF",
+"pointstroke":      0.5,
+"textcolour": "#000000",
+"textsize":       12,
+"textangle":        0,
+"texthjust":        1,
+"textvjust":      0.5,
+"textfamily": "",
+"textfontface":        1,
+"textlineheight":      1.2 
+} 
+] 
+} 
+},
+"strips": {
+ "right": [
+ "",
+"",
+"",
+"" 
+],
+"top": [
+ "constante",
+"escalier",
+"linéaire",
+"quadratique" 
+],
+"n": {
+ "top":        1,
+"right":        1 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2", "3", "4" ],
+"ROW": [ 1, 1, 1, 1 ],
+"COL": [ 1, 2, 3, 4 ],
+"tendence": [ "constante", "escalier", "linéaire", "quadratique" ],
+"SCALE_X": [ 1, 1, 1, 1 ],
+"SCALE_Y": [ 1, 1, 1, 1 ],
+"AXIS_Y": [ true, false, false, false ],
+"AXIS_X": [ true, true, true, true ],
+"coord_fixed": [ false, false, false, false ],
+"width_proportion": [     0.25,     0.25,     0.25,     0.25 ],
+"height_proportion": [        1,        1,        1,        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        1,
+      10,
+      20,
+      30,
+      40,
+      50 
+],
+[
+        1,
+      10,
+      20,
+      30,
+      40,
+      50 
+],
+[
+        1,
+      10,
+      20,
+      30,
+      40,
+      50 
+],
+[
+        1,
+      10,
+      20,
+      30,
+      40,
+      50 
+] 
+],
+"y": [
+ [
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+],
+[
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+],
+[
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+],
+[
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        1,
+     5.5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50 
+],
+[
+        1,
+     5.5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50 
+],
+[
+        1,
+     5.5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50 
+],
+[
+        1,
+     5.5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50 
+] 
+],
+"y": [
+ [
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        1,
+      10,
+      20,
+      30,
+      40,
+      50 
+],
+"xlab": [
+ "1",
+"10",
+"20",
+"30",
+"40",
+"50" 
+],
+"xrange": [       -2,       53 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0" 
+],
+"yrange": [     -0.1,      2.1 ],
+"yline": false,
+"yticks": true 
+},
+"axis2": {
+ "x": [
+        1,
+      10,
+      20,
+      30,
+      40,
+      50 
+],
+"xlab": [
+ "1",
+"10",
+"20",
+"30",
+"40",
+"50" 
+],
+"xrange": [       -2,       53 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0" 
+],
+"yrange": [     -0.1,      2.1 ],
+"yline": false,
+"yticks": true 
+},
+"axis3": {
+ "x": [
+        1,
+      10,
+      20,
+      30,
+      40,
+      50 
+],
+"xlab": [
+ "1",
+"10",
+"20",
+"30",
+"40",
+"50" 
+],
+"xrange": [       -2,       53 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0" 
+],
+"yrange": [     -0.1,      2.1 ],
+"yline": false,
+"yticks": true 
+},
+"axis4": {
+ "x": [
+        1,
+      10,
+      20,
+      30,
+      40,
+      50 
+],
+"xlab": [
+ "1",
+"10",
+"20",
+"30",
+"40",
+"50" 
+],
+"xrange": [       -2,       53 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0" 
+],
+"yrange": [     -0.1,      2.1 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "voisins",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Racine de l’erreur carrée moyenne",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "1",
+"10",
+"20",
+"30",
+"40",
+"50" 
+],
+"ylabs": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0" 
+],
+"title": "Erreurs sur sous-entraîniment et validation, choisir nombre de voisins",
+"title_size": "14.4pt",
+"options": {
+ "width":     1000,
+"height":      300 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom4_line_select",
+"geom5_point_select",
+"geom6_text_select",
+"geom7_text_select",
+"geom8_tallrect_select" 
+] 
+} 
+},
+"source": "https://github.com/tdhock/2026-08-apprentissage/blob/master/figure-sur-sous-apprentissage-validation.R",
+"title": "Sous-entraînement et validation pour régression avec plus proches voisins" 
+}
