@@ -1132,7 +1132,7 @@
 "span": {
  "rowspan": null,
 "colspan": null,
-"last_in_row": null 
+"last_in_row": true 
 },
 "geoms": [
  "geom1_point_funs",
