@@ -34,7 +34,13 @@
 "PANEL" 
 ],
 "chunks": 1,
-"total": 1 
+"total": 1,
+"chunk_info": {
+ "geom1_point_funs_chunk1.tsv": {
+ "bytes":    24097,
+"rows": 400 
+} 
+} 
 },
 "geom2_line_funs": {
  "geom": "line",
@@ -69,7 +75,13 @@
 "PANEL" 
 ],
 "chunks": 1,
-"total": 1 
+"total": 1,
+"chunk_info": {
+ "geom2_line_funs_chunk1.tsv": {
+ "bytes":    70971,
+"rows": 1600 
+} 
+} 
 },
 "geom3_line_funs": {
  "geom": "line",
@@ -171,7 +183,213 @@
 "49": 49,
 "50": 50 
 },
-"total": 50 
+"total": 50,
+"chunk_info": {
+ "geom3_line_funs_chunk_common.tsv": {
+ "bytes":    74615,
+"rows": 1600 
+},
+"geom3_line_funs_chunk1.tsv": {
+ "bytes":    31046,
+"rows": 1600 
+},
+"geom3_line_funs_chunk2.tsv": {
+ "bytes":    31060,
+"rows": 1600 
+},
+"geom3_line_funs_chunk3.tsv": {
+ "bytes":    30962,
+"rows": 1600 
+},
+"geom3_line_funs_chunk4.tsv": {
+ "bytes":    31056,
+"rows": 1600 
+},
+"geom3_line_funs_chunk5.tsv": {
+ "bytes":    30956,
+"rows": 1600 
+},
+"geom3_line_funs_chunk6.tsv": {
+ "bytes":    30972,
+"rows": 1600 
+},
+"geom3_line_funs_chunk7.tsv": {
+ "bytes":    30938,
+"rows": 1600 
+},
+"geom3_line_funs_chunk8.tsv": {
+ "bytes":    30926,
+"rows": 1600 
+},
+"geom3_line_funs_chunk9.tsv": {
+ "bytes":    30930,
+"rows": 1600 
+},
+"geom3_line_funs_chunk10.tsv": {
+ "bytes":    30946,
+"rows": 1600 
+},
+"geom3_line_funs_chunk11.tsv": {
+ "bytes":    30862,
+"rows": 1600 
+},
+"geom3_line_funs_chunk12.tsv": {
+ "bytes":    30928,
+"rows": 1600 
+},
+"geom3_line_funs_chunk13.tsv": {
+ "bytes":    31028,
+"rows": 1600 
+},
+"geom3_line_funs_chunk14.tsv": {
+ "bytes":    30958,
+"rows": 1600 
+},
+"geom3_line_funs_chunk15.tsv": {
+ "bytes":    30990,
+"rows": 1600 
+},
+"geom3_line_funs_chunk16.tsv": {
+ "bytes":    30928,
+"rows": 1600 
+},
+"geom3_line_funs_chunk17.tsv": {
+ "bytes":    31062,
+"rows": 1600 
+},
+"geom3_line_funs_chunk18.tsv": {
+ "bytes":    30716,
+"rows": 1600 
+},
+"geom3_line_funs_chunk19.tsv": {
+ "bytes":    30936,
+"rows": 1600 
+},
+"geom3_line_funs_chunk20.tsv": {
+ "bytes":    31034,
+"rows": 1600 
+},
+"geom3_line_funs_chunk21.tsv": {
+ "bytes":    31094,
+"rows": 1600 
+},
+"geom3_line_funs_chunk22.tsv": {
+ "bytes":    30804,
+"rows": 1600 
+},
+"geom3_line_funs_chunk23.tsv": {
+ "bytes":    30920,
+"rows": 1600 
+},
+"geom3_line_funs_chunk24.tsv": {
+ "bytes":    31102,
+"rows": 1600 
+},
+"geom3_line_funs_chunk25.tsv": {
+ "bytes":    31058,
+"rows": 1600 
+},
+"geom3_line_funs_chunk26.tsv": {
+ "bytes":    30696,
+"rows": 1600 
+},
+"geom3_line_funs_chunk27.tsv": {
+ "bytes":    31060,
+"rows": 1600 
+},
+"geom3_line_funs_chunk28.tsv": {
+ "bytes":    30706,
+"rows": 1600 
+},
+"geom3_line_funs_chunk29.tsv": {
+ "bytes":    31114,
+"rows": 1600 
+},
+"geom3_line_funs_chunk30.tsv": {
+ "bytes":    31012,
+"rows": 1600 
+},
+"geom3_line_funs_chunk31.tsv": {
+ "bytes":    31158,
+"rows": 1600 
+},
+"geom3_line_funs_chunk32.tsv": {
+ "bytes":    31146,
+"rows": 1600 
+},
+"geom3_line_funs_chunk33.tsv": {
+ "bytes":    30928,
+"rows": 1600 
+},
+"geom3_line_funs_chunk34.tsv": {
+ "bytes":    31142,
+"rows": 1600 
+},
+"geom3_line_funs_chunk35.tsv": {
+ "bytes":    30686,
+"rows": 1600 
+},
+"geom3_line_funs_chunk36.tsv": {
+ "bytes":    30724,
+"rows": 1600 
+},
+"geom3_line_funs_chunk37.tsv": {
+ "bytes":    30870,
+"rows": 1600 
+},
+"geom3_line_funs_chunk38.tsv": {
+ "bytes":    31120,
+"rows": 1600 
+},
+"geom3_line_funs_chunk39.tsv": {
+ "bytes":    30820,
+"rows": 1600 
+},
+"geom3_line_funs_chunk40.tsv": {
+ "bytes":    30654,
+"rows": 1600 
+},
+"geom3_line_funs_chunk41.tsv": {
+ "bytes":    31030,
+"rows": 1600 
+},
+"geom3_line_funs_chunk42.tsv": {
+ "bytes":    30920,
+"rows": 1600 
+},
+"geom3_line_funs_chunk43.tsv": {
+ "bytes":    30660,
+"rows": 1600 
+},
+"geom3_line_funs_chunk44.tsv": {
+ "bytes":    31002,
+"rows": 1600 
+},
+"geom3_line_funs_chunk45.tsv": {
+ "bytes":    30862,
+"rows": 1600 
+},
+"geom3_line_funs_chunk46.tsv": {
+ "bytes":    31120,
+"rows": 1600 
+},
+"geom3_line_funs_chunk47.tsv": {
+ "bytes":    30832,
+"rows": 1600 
+},
+"geom3_line_funs_chunk48.tsv": {
+ "bytes":    31202,
+"rows": 1600 
+},
+"geom3_line_funs_chunk49.tsv": {
+ "bytes":    31006,
+"rows": 1600 
+},
+"geom3_line_funs_chunk50.tsv": {
+ "bytes":    31208,
+"rows": 1600 
+} 
+} 
 },
 "geom4_line_select": {
  "geom": "line",
@@ -208,7 +426,13 @@
 "PANEL" 
 ],
 "chunks": 1,
-"total": 1 
+"total": 1,
+"chunk_info": {
+ "geom4_line_select_chunk1.tsv": {
+ "bytes":    18280,
+"rows": 400 
+} 
+} 
 },
 "geom5_point_select": {
  "geom": "point",
@@ -217,34 +441,45 @@
 "x": "voisins",
 "y": "RMSE",
 "colour": "ensemble",
-"showSelected1": "ensemble"
+"fill": "erreur",
+"showSelected1": "ensemble",
+"showSelected2": "erreur"
 },
 "params": {
  "na.rm": false,
 "na.rm": false,
-"fill": "#FFFFFF",
-"showSelected": "ensemble",
-"help_showSelected": "ensemble" 
+"showSelected": [ "ensemble", "erreur" ],
+"help_showSelected": [ "ensemble", "erreur" ] 
 },
 "types": {
+"fill": "rgb",
 "colour": "rgb",
 "x": "numeric",
 "y": "numeric",
 "showSelected1": "character",
+"showSelected2": "character",
 "PANEL": "factor",
 "group": "character"
 },
 "chunk_order": [],
 "nest_order": [
  "showSelected1",
+"showSelected2",
 "PANEL" 
 ],
 "subset_order": [
  "showSelected1",
+"showSelected2",
 "PANEL" 
 ],
 "chunks": 1,
-"total": 1 
+"total": 1,
+"chunk_info": {
+ "geom5_point_select_chunk1.tsv": {
+ "bytes":      441,
+"rows": 8 
+} 
+} 
 },
 "geom6_text_select": {
  "geom": "text",
@@ -254,7 +489,8 @@
 "y": "0.3",
 "key": "voisins",
 "label": "sprintf(\"%d plus proche%s voisin%s\", voisins, s, s)",
-"showSelected1": "voisins"
+"showSelected1": "fonction",
+"showSelected2": "voisins"
 },
 "params": {
  "parse": false,
@@ -262,8 +498,8 @@
 "na.rm": false,
 "na.rm": false,
 "colour": "#FF0000",
-"showSelected": "voisins",
-"help_showSelected": "voisins",
+"showSelected": [ "fonction", "voisins" ],
+"help_showSelected": [ "fonction", "voisins" ],
 "anchor": "end" 
 },
 "types": {
@@ -271,21 +507,30 @@
 "y": "numeric",
 "key": "character",
 "label": "character",
-"showSelected1": "integer",
+"showSelected1": "character",
+"showSelected2": "integer",
 "PANEL": "factor",
 "group": "character"
 },
 "chunk_order": [],
 "nest_order": [
  "showSelected1",
+"showSelected2",
 "PANEL" 
 ],
 "subset_order": [
  "showSelected1",
+"showSelected2",
 "PANEL" 
 ],
 "chunks": 1,
-"total": 1 
+"total": 1,
+"chunk_info": {
+ "geom6_text_select_chunk1.tsv": {
+ "bytes":    11168,
+"rows": 200 
+} 
+} 
 },
 "geom7_text_select": {
  "geom": "text",
@@ -295,7 +540,7 @@
 "y": "ifelse(ensemble == subtrain, 0.15, 0)",
 "colour": "ensemble",
 "key": "ensemble",
-"label": "sprintf(\"Erreur sur %s : %.4f\", ensemble, RMSE)",
+"label": "sprintf(\"Erreur %s : %.4f\", ensemble, RMSE)",
 "showSelected1": "voisins",
 "showSelected2": "ensemble"
 },
@@ -331,7 +576,13 @@
 "PANEL" 
 ],
 "chunks": 1,
-"total": 1 
+"total": 1,
+"chunk_info": {
+ "geom7_text_select_chunk1.tsv": {
+ "bytes":    32183,
+"rows": 400 
+} 
+} 
 },
 "geom8_tallrect_select": {
  "geom": "tallrect",
@@ -363,7 +614,13 @@
  "PANEL" 
 ],
 "chunks": 1,
-"total": 1 
+"total": 1,
+"chunk_info": {
+ "geom8_tallrect_select_chunk1.tsv": {
+ "bytes":     2917,
+"rows": 200 
+} 
+} 
 } 
 },
 "duration": {
@@ -389,11 +646,23 @@
 "legend": true,
 "is.variable.value": false,
 "showSelected": true,
-"selected": [ "truth", "prediction" ],
-"levels": [ "truth", "prediction" ],
+"selected": [ "idéal", "prédiction" ],
+"levels": [ "idéal", "prédiction" ],
 "update": [
  "geom2_line_funs",
-"geom3_line_funs" 
+"geom3_line_funs",
+"geom6_text_select" 
+] 
+},
+"erreur": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": "min",
+"levels": "min",
+"update": [
+ "geom5_point_select" 
 ] 
 },
 "voisins": {
@@ -430,7 +699,7 @@
 "entries": [
  {
  "pointfill": "#7F7F7F",
-"pointshape":       19,
+"pointshape":       21,
 "pointcolour": "#000000",
 "pointsize":        4,
 "pointstroke":      0.5,
@@ -438,7 +707,7 @@
 },
 {
  "pointfill": "#000000",
-"pointshape":       19,
+"pointshape":       21,
 "pointcolour": "#000000",
 "pointsize":        4,
 "pointstroke":      0.5,
@@ -461,13 +730,13 @@
  "pathcolour": "#FF0000",
 "pathsize":      0.5,
 "pathlinetype":        1,
-"label": "prediction" 
+"label": "prédiction" 
 },
 {
  "pathcolour": "#0000FF",
 "pathsize":      0.5,
 "pathlinetype":        1,
-"label": "truth" 
+"label": "idéal" 
 } 
 ] 
 } 
@@ -1160,9 +1429,8 @@
 "pathlinetype":        1,
 "label": "sous-entraînement",
 "pointcolour": "#7F7F7F",
-"pointshape":       19,
+"pointshape":       21,
 "pointsize":      1.5,
-"pointfill": "#FFFFFF",
 "pointstroke":      0.5,
 "textcolour": "#7F7F7F",
 "textsize":       12,
@@ -1171,7 +1439,10 @@
 "textvjust":      0.5,
 "textfamily": "",
 "textfontface":        1,
-"textlineheight":      1.2 
+"textlineheight":      1.2,
+"pathfill": "#FFFFFF",
+"pointfill": "#FFFFFF",
+"textfill": "#FFFFFF" 
 },
 {
  "pathcolour": "#000000",
@@ -1179,9 +1450,8 @@
 "pathlinetype":        1,
 "label": "validation",
 "pointcolour": "#000000",
-"pointshape":       19,
+"pointshape":       21,
 "pointsize":      1.5,
-"pointfill": "#FFFFFF",
 "pointstroke":      0.5,
 "textcolour": "#000000",
 "textsize":       12,
@@ -1190,7 +1460,31 @@
 "textvjust":      0.5,
 "textfamily": "",
 "textfontface":        1,
-"textlineheight":      1.2 
+"textlineheight":      1.2,
+"pathfill": "#FFFFFF",
+"pointfill": "#FFFFFF",
+"textfill": "#FFFFFF" 
+} 
+] 
+},
+"erreur": {
+ "guide": "legend",
+"geoms": "point",
+"title": "erreur",
+"class": "erreur",
+"selector": "erreur",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pointfill": "#FFFFFF",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "min" 
 } 
 ] 
 } 
@@ -1595,7 +1889,7 @@
 "1.5",
 "2.0" 
 ],
-"title": "Erreurs sur sous-entraîniment et validation, choisir nombre de voisins",
+"title": "Erreurs sur sous-entraînement et validation, choisir nombre de voisins",
 "title_size": "14.4pt",
 "options": {
  "width":     1000,

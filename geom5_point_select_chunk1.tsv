@@ -1,5 +1,9 @@
-colour	x	y	showSelected1	PANEL
-#000000	50	1.14200307774437	validation	1
-#000000	17	1.17476012889075	validation	2
-#000000	25	1.03721319049506	validation	3
-#000000	4	1.01943411443953	validation	4
+fill	colour	x	y	showSelected1	showSelected2	PANEL
+#FFFFFF	#7F7F7F	1	0	sous-entraînement	min	1
+#FFFFFF	#000000	50	1.14200307774437	validation	min	1
+#FFFFFF	#7F7F7F	1	0	sous-entraînement	min	2
+#FFFFFF	#000000	17	1.17476012889075	validation	min	2
+#FFFFFF	#7F7F7F	1	0	sous-entraînement	min	3
+#FFFFFF	#000000	25	1.03721319049506	validation	min	3
+#FFFFFF	#7F7F7F	1	0	sous-entraînement	min	4
+#FFFFFF	#000000	4	1.01943411443953	validation	min	4
